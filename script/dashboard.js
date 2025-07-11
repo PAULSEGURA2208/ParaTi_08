@@ -99,9 +99,9 @@ window.addEventListener("load", () => {
     const dayText = days === 1 ? "día" : "días";
 
     // Mostrar el número de años, meses y días en el dashboard
-    document.getElementById(
-      "daysCount"
-    ).innerText = `Ya han pasado ${years} ${yearText}, ${months} ${monthText} y ${days} ${dayText}, desde que comenzó nuestra historia de amor. Me alegra mucho estar aún a tu lado y disfrutar cada momento, eres la persona que amaré de por vida. ¡Te Amoo❤️!`;
+    const daysCount = document.getElementById("daysCount");
+daysCount.classList.add("texto-romantico");
+daysCount.innerText = `Ya han pasado ${years} ${yearText}, ${months} ${monthText} y ${days} ${dayText}, desde que comenzó nuestra historia de amor. Me alegra mucho estar aún a tu lado y disfrutar cada momento, eres la persona que amaré de por vida. ¡Te Amoo mi cielo❤️. Eres muy importante para mi bebé!`;
   }
 });
 
@@ -124,7 +124,7 @@ particlesJS("particles-js", {
     },
     move: {
       enable: true,
-      speed: 1, // Velocidad de caída
+      speed: 3, // Velocidad de caída
       direction: "top", // Dirección hacia abajo
       random: true,
       straight: false,
@@ -158,8 +158,8 @@ const mensajes = [
     "Eres mi impulso a seguir adelante mi amor. 😊",
     "Me apoyas en todas mi locuras mi amor. ☀️",
     "Sos mi mas grande orgullo bb. 🏆",
-    "No vamos a dejar que nadie nos detenga mi moticucaaaa. 🌟",
-    "Eres mi familia amor y nunca te voy a soltar bb nunca amor. 😊",
+    "No vamos a dejar que nadie nos detenga mi neglita hermosha. 🌟",
+    "Eres mi familia amor y nunca te voy a soltar bebé, nunca mi amor. 😊",
     "Siempre te voy a cuidar mi niña hermosa. 💓",
 ];
 
